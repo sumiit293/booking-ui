@@ -5,8 +5,8 @@ const Row = (props) => {
   return (
     <div className="flex align-top">
         <div className="w-2/6">
-            <div>
-                <img src={imgTrain} className="mx-auto mt-20 pr-10 sticky top-10" />
+            <div className='sticky top-10'>
+                <img src={imgTrain} className="mx-auto mt-20 pr-10" />
                 <p className="mt-10 text-center text-gray-500">Mail Express Coach 1</p>
             </div>
         </div>
