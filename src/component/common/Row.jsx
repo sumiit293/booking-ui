@@ -21,8 +21,11 @@ const Row = (props) => {
                         <p className="text-white text-sm">{seat.seatNumber}</p>
                     </div>
                 }
+                
             </div>)}
         </div>
+        {(Array.isArray(seats) && seats.length == 0) && <div className="text-center text-gray-500 mt-40 w-full"> Loading... </div>}
+
     </div>
   )
 }

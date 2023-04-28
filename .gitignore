@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#url of ui deployed
+#https://booking-ui-puce.vercel.app/
