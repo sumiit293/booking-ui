@@ -7,7 +7,7 @@ const Row = (props) => {
         <div className="w-2/6">
             <div>
                 <img src={imgTrain} className="mx-auto mt-20 pr-10 sticky top-10" />
-                <p className="mt-10 text-center text-gray-500">Mail Express</p>
+                <p className="mt-10 text-center text-gray-500">Mail Express Coach 1</p>
             </div>
         </div>
         <div className="grid grid-cols-7 gap-2 mt-2 w-4/6">
